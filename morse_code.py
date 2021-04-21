@@ -89,6 +89,7 @@ def ledToggleGreen():
                                      time.sleep(3)
                                      RPi.GPIO.output(ledGreen,False)
                                      time.sleep(1)
+                                     print(sign)
                                      
                                    
                                 elif sign == '.':
